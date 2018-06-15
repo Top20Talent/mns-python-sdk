@@ -16,11 +16,6 @@ import os
 import sys
 import mns.mns_pkg_info
 
-PACKAGE = "mns"
-NAME = "aliyun-msn-python-sdk"
-DESCRIPTION = "Aliyun MNS Python SDK."
-AUTHOR = "Aliyun"
-
 if sys.version_info <= (2, 5):
     sys.stderr.write("ERROR: mns python sdk requires Python Version 2.5 or above.\n")
     sys.stderr.write("Your Python version is %s.%s.%s.\n" % sys.version_info[:3])
